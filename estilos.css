@@ -1,0 +1,219 @@
+body.fondo-azul {
+    background: linear-gradient(rgb(241, 153, 234), rgb(255, 255, 0));
+}
+
+
+body.fondo-purpura{
+    background: linear-gradient(rgb(241, 153, 234), rgb(255, 255, 0));
+} 
+
+.catalogo{
+    width: 300px;
+    height: 400px;
+}
+
+.novedades{
+    width: 300px;
+    height: 400px;
+}
+
+.ofertas{
+    width: 500px;
+    height: 300px;
+}
+
+.fin{
+    width: 150px;
+    height: 150px;
+}
+
+.pagos{
+    width: 500px;
+    height: 300px;
+}
+
+.envios{
+    width: 700px;
+    height: 400px;
+}
+
+.index{
+     width: 300px;
+     height: 400px;
+}
+
+.inicio{
+    width: 300px;
+    height: 400px;
+}
+
+h1{
+    color: #431c3d;
+}
+
+.modo-oscuro h1 {
+    color: #431c3d;
+}
+
+nav{
+  background: linear-gradient(120deg, rgb(241, 153, 234), rgb(255, 255, 0));
+}
+
+main nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    padding: 8px;
+    align-items: center;
+}
+
+nav a{
+    color: #431c3d;
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 2px 0;
+}
+
+a {
+    color: #70205f;
+}
+
+#modoOscuro {
+    font-size: 1.1rem;
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin: 10px 0 20px;
+    cursor: pointer;
+}
+
+.boton-registro {
+    background: linear-gradient(120deg, rgb(241, 153, 234), rgb(255, 255, 0));
+    color: #431c3d;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+
+#errorNombre
+#errorCorreo
+#errorMensaje {
+    color: red;
+    display:block;
+    margin-top: 5px;
+}
+
+.oculto{
+    display:none
+}
+
+
+
+
+
+
+
+
+/* Mensajes de formularios y panel */
+.mensaje {
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 12px 0;
+    max-width: 640px;
+}
+
+.mensaje ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.mensaje-error {
+    background: linear-gradient(120deg, rgba(241, 153, 234, .72), rgba(255, 255, 0, .36));
+    color: #431c3d;
+    border: 1px solid rgba(95, 35, 83, .3);
+}
+
+.mensaje-ok {
+    background: linear-gradient(120deg, rgba(241, 153, 234, .42), rgba(255, 255, 0, .68));
+    color: #431c3d;
+    border: 1px solid rgba(95, 35, 83, .3);
+}
+
+.mensaje-info {
+    background: linear-gradient(120deg, rgba(241, 153, 234, .42), rgba(255, 255, 0, .68));
+    color: #431c3d;
+    border: 1px solid rgba(95, 35, 83, .3);
+}
+
+.form-servidor input[type="text"],
+.form-servidor input[type="email"],
+.form-servidor input[type="password"],
+.form-servidor input[type="number"],
+.form-servidor select,
+.form-servidor textarea {
+    width: 100%;
+    max-width: 420px;
+    padding: 6px;
+}
+
+.tabla-datos {
+    border-collapse: collapse;
+    background: linear-gradient(135deg, rgba(241, 153, 234, .28), rgba(255, 255, 0, .32));
+}
+
+.tabla-datos th,
+.tabla-datos td {
+    border: 1px solid #888;
+    padding: 6px 10px;
+    text-align: left;
+}
+
+.boton-peligro {
+    background: linear-gradient(120deg, rgb(241, 153, 234), rgb(255, 255, 0));
+    color: #431c3d;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.catalogo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.producto-card {
+    background: linear-gradient(135deg, rgba(241, 153, 234, .28), rgba(255, 255, 0, .32));
+    border: 1px solid rgba(95, 35, 83, .3);
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.producto-card h2 {
+    font-size: 1.15rem;
+    color: #431c3d;
+}
+
+.producto-imagen {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.producto-sin-imagen {
+    display: grid;
+    place-items: center;
+    height: 180px;
+    background: linear-gradient(120deg, rgb(241, 153, 234), rgb(255, 255, 0));
+    color: #431c3d;
+    border-radius: 8px;
+    font-weight: bold;
+}
